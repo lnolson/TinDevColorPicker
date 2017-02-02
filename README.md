@@ -3,6 +3,16 @@ A small color picker utility for ASU students using the Tin Framework.
 
 A very small utility app that makes it easier to pick a color, then add the correct code to your app. A few options make it easy to use with the Tin Framework. 
 
+### Installation
+
+If you just want the binary, you can download the application from the latest release [here](https://github.com/lnolson/TinDevColorPicker/releases/download/v1.0/TinDevColorPicker.app.zip). Unzip this archive, and put it wherever you want. /Applications will work just fine.
+
+This application binary is not signed. If your Mac has Gatekeeper turned on (See https://support.apple.com/en-us/HT202491), then you will need to perform the following steps the first time you run the application.
+
+1. In Finder, Control-click or right click the icon of the app.
+2. Select Open from the top of contextual menu that appears.
+3. Click Open in the dialog box. If prompted, enter an administrator name and password.
+
 ### How to use
 
 - Launch TinDevColorPicker
