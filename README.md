@@ -16,15 +16,15 @@ The 5 buttons provide the following actions.
 
 #### Create a tin method call to set Fill color, put it on the pasteboard.
 
-    tin.setFillColor(red: 1.0, green: 0.6817, blue: 0.176, alpha: 1.0)
+    fillColor(red: 1.0, green: 0.6817, blue: 0.176, alpha: 1.0)
 
 #### Create a tin method call to set Stroke color, put it on the pasteboard.
 
-    tin.setStrokeColor(red: 1.0, green: 0.6817, blue: 0.176, alpha: 1.0)
+    strokeColor(red: 1.0, green: 0.6817, blue: 0.176, alpha: 1.0)
 
 #### Create a tin method call to set the background color, put it on the pasteboard.
 
-    tin.background(red: 1.0, green: 0.6817, blue: 0.176)
+    background(red: 1.0, green: 0.6817, blue: 0.176)
 
 #### Create a method call to create an NSColor instance, put it on the pasteboard.
 

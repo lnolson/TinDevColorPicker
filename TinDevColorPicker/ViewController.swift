@@ -40,7 +40,7 @@ class ViewController: NSViewController {
     // Create a tin method call to set Fill color, put it on the pasteboard.
     @IBAction func createFill(_ sender: NSButton) {
         
-        let text = "tin.setFillColor(red: \(nice(number: colorWell.color.redComponent)), green: \(nice(number: colorWell.color.greenComponent)), blue: \(nice(number: colorWell.color.blueComponent)), alpha: \(nice(number: colorWell.color.alphaComponent)))"
+        let text = "fillColor(red: \(nice(number: colorWell.color.redComponent)), green: \(nice(number: colorWell.color.greenComponent)), blue: \(nice(number: colorWell.color.blueComponent)), alpha: \(nice(number: colorWell.color.alphaComponent)))"
         print(text)
         
         NSPasteboard.general().clearContents()
@@ -51,7 +51,7 @@ class ViewController: NSViewController {
     
     // Create a tin method call to set Stroke color, put it on the pasteboard.
     @IBAction func createStroke(_ sender: NSButton) {
-        let text = "tin.setStrokeColor(red: \(nice(number: colorWell.color.redComponent)), green: \(nice(number: colorWell.color.greenComponent)), blue: \(nice(number: colorWell.color.blueComponent)), alpha: \(nice(number: colorWell.color.alphaComponent)))"
+        let text = "strokeColor(red: \(nice(number: colorWell.color.redComponent)), green: \(nice(number: colorWell.color.greenComponent)), blue: \(nice(number: colorWell.color.blueComponent)), alpha: \(nice(number: colorWell.color.alphaComponent)))"
         print(text)
         
         NSPasteboard.general().clearContents()
@@ -61,7 +61,7 @@ class ViewController: NSViewController {
     
     // Create a tin method call to set the background color, put it on the pasteboard.
     @IBAction func createBackground(_ sender: NSButton) {
-        let text = "tin.background(red: \(nice(number: colorWell.color.redComponent)), green: \(nice(number: colorWell.color.greenComponent)), blue: \(nice(number: colorWell.color.blueComponent)))"
+        let text = "background(red: \(nice(number: colorWell.color.redComponent)), green: \(nice(number: colorWell.color.greenComponent)), blue: \(nice(number: colorWell.color.blueComponent)))"
         print(text)
         
         NSPasteboard.general().clearContents()
