@@ -43,8 +43,8 @@ class ViewController: NSViewController {
         let text = "fillColor(red: \(nice(number: colorWell.color.redComponent)), green: \(nice(number: colorWell.color.greenComponent)), blue: \(nice(number: colorWell.color.blueComponent)), alpha: \(nice(number: colorWell.color.alphaComponent)))"
         print(text)
         
-        NSPasteboard.general().clearContents()
-        NSPasteboard.general().setString(text, forType: NSPasteboardTypeString)
+        NSPasteboard.general.clearContents()
+        NSPasteboard.general.setString(text, forType: NSPasteboard.PasteboardType.string)
         
     }
     
@@ -54,8 +54,8 @@ class ViewController: NSViewController {
         let text = "strokeColor(red: \(nice(number: colorWell.color.redComponent)), green: \(nice(number: colorWell.color.greenComponent)), blue: \(nice(number: colorWell.color.blueComponent)), alpha: \(nice(number: colorWell.color.alphaComponent)))"
         print(text)
         
-        NSPasteboard.general().clearContents()
-        NSPasteboard.general().setString(text, forType: NSPasteboardTypeString)
+        NSPasteboard.general.clearContents()
+        NSPasteboard.general.setString(text, forType: NSPasteboard.PasteboardType.string)
     }
     
     
@@ -64,8 +64,8 @@ class ViewController: NSViewController {
         let text = "background(red: \(nice(number: colorWell.color.redComponent)), green: \(nice(number: colorWell.color.greenComponent)), blue: \(nice(number: colorWell.color.blueComponent)))"
         print(text)
         
-        NSPasteboard.general().clearContents()
-        NSPasteboard.general().setString(text, forType: NSPasteboardTypeString)
+        NSPasteboard.general.clearContents()
+        NSPasteboard.general.setString(text, forType: NSPasteboard.PasteboardType.string)
     }
     
     
@@ -74,8 +74,8 @@ class ViewController: NSViewController {
         let text = "NSColor(red: \(nice(number: colorWell.color.redComponent)), green: \(nice(number: colorWell.color.greenComponent)), blue: \(nice(number: colorWell.color.blueComponent)), alpha: \(nice(number: colorWell.color.alphaComponent)))"
         print(text)
         
-        NSPasteboard.general().clearContents()
-        NSPasteboard.general().setString(text, forType: NSPasteboardTypeString)
+        NSPasteboard.general.clearContents()
+        NSPasteboard.general.setString(text, forType: NSPasteboard.PasteboardType.string)
     }
     
     
@@ -84,8 +84,8 @@ class ViewController: NSViewController {
         let text = "UIColor(red: \(nice(number: colorWell.color.redComponent)), green: \(nice(number: colorWell.color.greenComponent)), blue: \(nice(number: colorWell.color.blueComponent)), alpha: \(nice(number: colorWell.color.alphaComponent)))"
         print(text)
         
-        NSPasteboard.general().clearContents()
-        NSPasteboard.general().setString(text, forType: NSPasteboardTypeString)
+        NSPasteboard.general.clearContents()
+        NSPasteboard.general.setString(text, forType: NSPasteboard.PasteboardType.string)
     }
     
     
