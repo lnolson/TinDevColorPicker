@@ -5,7 +5,7 @@ A very small utility app that makes it easier to pick a color, then add the corr
 
 ### Installation
 
-If you just want the binary, you can download the application from the latest release [here](https://github.com/lnolson/TinDevColorPicker/releases/download/v1.2/TinDevColorPicker.app.zip). Unzip this archive, and put it wherever you want. /Applications will work just fine.
+If you just want the binary, you can download the application from the latest release [here](https://github.com/lnolson/TinDevColorPicker/releases/tag/1.2). Unzip this archive, and put it wherever you want. /Applications will work just fine.
 
 
 ### How to use
